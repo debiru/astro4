@@ -19,6 +19,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
+          path: subdir
           node-version: 22
           package-manager: npm@latest
 
